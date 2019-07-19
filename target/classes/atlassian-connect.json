@@ -1,0 +1,12 @@
+{
+  "key": "sgm",
+  "baseUrl": "http://localhost:${local.server.port}",
+  "name": "Atlassian Connect Spring Boot Example",
+  "authentication": {
+    "type": "jwt"
+  },
+  "lifecycle": {
+    "installed": "/installed",
+    "uninstalled": "/uninstalled"
+  }
+}
